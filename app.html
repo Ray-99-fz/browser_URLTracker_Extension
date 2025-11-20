@@ -11,14 +11,26 @@
         <input type="text" id="input-el">
         <div class="buttons">
             <button id="save-btn">Save Input</button>
-            <button id="delete-btn">Delete</button>
+            <button id="clear-btn">Clear All</button>
         </div>
 
         <div class="urls">
             <ul id="url-el">
-                <li>URL Number 1</li>
-                <li>URL Number 2</li>
-                <li>URL Number 3</li>
+                    <li>
+                        <a href="#">URL Number 1</a>
+                        <div class="toggles">
+                            <div class="note">
+                                <img src="images/edit.png" id="note-btn">
+                                <span class="note-pop">Reminder note</span>
+                            </div>
+                            <div class="delete">
+                                <img src="images/close.png" id="delete-btn">
+                                <span class="delete-pop">Delete URL</span> 
+                            </div>
+                        </div>
+                        <p contenteditable="true" id="note-el" placeholder="add note"></p>
+                    </li>
+                
             </ul>
         </div>
     </div>
