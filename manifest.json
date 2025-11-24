@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.1",
+    "name": "URL Tracker",
+    "action": {
+        "default_popup": "app.html",
+        "default_icon": "linker.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
