@@ -8,13 +8,15 @@
 body{
     background: linear-gradient(120deg, rgb(63, 58, 58), rgb(155, 149, 149));
     background-size: cover;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-repeat: no-repeat;
+    padding: 10px;
 }
 
 .app{
     width: 90%;
     margin: 30px auto;
+    min-width: 450px;
 }
 
 #input-el{
@@ -31,9 +33,15 @@ body{
     padding: 4px 8px;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 #save-btn:hover{
+    background: rgb(63, 58, 58);
+    color: #fff;
+}
+
+#grab-btn:hover{
     background: rgb(63, 58, 58);
     color: #fff;
 }
@@ -62,7 +70,7 @@ body{
 }
 
 .toggles img{
-    width: 20px;
+    width: 15px;
     cursor: pointer;
     margin-left: 15px;
 }
@@ -131,7 +139,7 @@ body{
 
 .urls ul li a{
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 p{
